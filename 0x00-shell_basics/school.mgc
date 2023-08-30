@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "0 string SCHOOL School data" > school.magic
+echo "!:mime School" >> school.magic
+file -C -m school.magic
